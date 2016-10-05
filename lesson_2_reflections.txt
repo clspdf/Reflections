@@ -1,0 +1,25 @@
+8. What happens when you initialize a repository? Why do you need to do it?
+
+ans: initializing a repository means now git is creating the environment to provide version control on the given project.
+
+9. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+ans: am guessing that staging area exists so that we can decide to commit some files first withouht touching the rest?
+
+git init
+git add
+git status
+staging area (using git add, before a commit)
+working directory
+git commit (prompting the text editor asking for description)
+git commit -m "MESSAGE HERE" without using the prompting text editor
+
+commit message style:
+
+'''
+Type (feature/fix/docs/style/refactor/test/chore): Subject
+
+Body
+
+Footer
+'''
