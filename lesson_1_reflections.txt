@@ -1,0 +1,44 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The premise here is that we only save those versions of work that are runnable.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+So that you can be more efficient by focusing on moving forward knowing that you can easily check out in case anything goes wrong and re-start not too far before.
+
+3. Auto vs. mannual?
+
+Mannual would be subjective and bring in laziness.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Sometime it takes more than one file to complete a project, and they are related when considering modification or changes.
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+
+6. How might using version control make you more confident to make changes that could break something?
+
+So that now we can run our code in different version draft to see when the bug first comes into place (but this requires us to do the logical commits).
+
+Normally we put the old commit first then new commit for diff.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+Well first to try it out when following the python book on programming collective intellegence.
+
+
+
+
+
+
+
+Version Control - the ability to access previous saved work draft
+Git commit - checkpoints of draft at different times (for every files in one repository)
+git log --stat (showing some stats along)
+git clone - to copy one repository offline including historical drafts
+
+use ls -a can check out those hidden file
+cd to directory and do "git init" to create a repository (without making the 1st commit automatically)
+
+git status shows that a repository is really a repository
