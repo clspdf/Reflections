@@ -6,6 +6,22 @@ ans: initializing a repository means now git is creating the environment to prov
 
 ans: am guessing that staging area exists so that we can decide to commit some files first withouht touching the rest?
 
+10. How can you use the staging area to make sure you have one commit per logical change?
+
+ans: to make sure there is only one file at a time to be added to the staging area.
+
+11. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+ans: when experiencing some changes which might have further logical changes which I want to keep away from my master path. It is essential to keep the master branch as one with production quality that never breaks and always works. And the freedom and power to switch things up.
+
+12. How do the diagrams help you visualize the branch structure?
+
+ans: it shows the overview of the branch structure of details commit status, and be able to switch branches using checkout to explore while maintaining quality production.
+
+13. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+ans: just like it said.
+
 git init
 git add
 git status
@@ -23,3 +39,18 @@ Body
 
 Footer
 '''
+
+git diff (working directory (new) vs. staging area)
+git diff --staged (staging area (new) vs. commit1)
+git diff commit1 commit2 (commit1 vs. commit2)
+git checkout -b newBranchName
+git show (contracting with parent)
+git merge branch1 branch2
+git branch -d branch (delete the label of branch )
+
+git merge (conflict)
+head - current code
+
+master - what's in the master, and
+
+original(common merge ancester)
